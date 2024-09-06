@@ -1,0 +1,16 @@
+Create database locadoras_1e;
+
+Create database supermecado_1e;
+Create database estoque_1e;
+Create database restaurante_1e;
+Create database controle_vendas_1e;
+Create database biblioteca_1e;
+Create database lojavirtual_1e;
+
+
+Drop database supermecado_1e;
+Drop database estoque_1e;
+Drop database restaurante_1e;
+Drop database controle_vendas_1e;
+Drop database biblioteca_1e;
+Drop database lojavirtual_1e;
