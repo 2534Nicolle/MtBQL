@@ -1,0 +1,27 @@
+CREATE DATABASE empresa_1e;
+use empresa_1e;
+
+create table cliente (
+codigo integer,
+nome varchar(50),
+endereco varchar(50)
+);
+describe cliente;
+DROP TABLE cliente;
+
+
+CREATE TABLE produto (
+cod integer,
+ descricao varchar(40),
+ valor float
+ );
+describe produto;
+DROP TABLE produto;
+
+
+CREATE TABLE produtos (
+cod_prod integer PRIMARY KEY,
+nome varchar(40),
+preco numeric(10,2)
+);
+describe produtos;
