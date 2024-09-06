@@ -1,0 +1,7 @@
+CREATE TABLE exemplo (
+cod integer,
+item integer,
+cod_prod integer,
+PRIMARY KEY (cod,item)
+);
+describe exemplo;
